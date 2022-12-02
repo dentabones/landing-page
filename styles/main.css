@@ -2,6 +2,15 @@
   margin: 0;
   padding: 0;
 }
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 /* global reset margin and padding */
 
 body {
@@ -139,6 +148,18 @@ footer {
 
 /* call to action */
 .call-to-action {
+  height: 100px;
   background-color: #3882f6;
   color: #f9faf8;
+  border-radius: 5px;
+  padding: 40px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0;
+}
+.call-to-action button {
+  border: solid 1px #e5e7eb;
+  padding: 0 10px;
+  height: 30px;
 }
