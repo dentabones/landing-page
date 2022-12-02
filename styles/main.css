@@ -32,7 +32,7 @@ img {
 header {
   background-color: #1f2937;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 30px;
 }
 
@@ -53,14 +53,21 @@ ul {
 a {
   text-decoration: none;
 }
+
+/* section and header line up */
+
+.section-1,
+header {
+  padding-left: 100px;
+  padding-right: 100px;
+}
 /* seciton 1 */
 .section-1 {
   background-color: #1f2937;
   display: flex;
-
-  padding: 100px 30px;
+  padding-bottom: 30px;
   margin-bottom: 30px;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 section {
@@ -132,7 +139,7 @@ button {
   background-color: #e5e7eb;
   display: flex;
   flex-direction: column;
-  padding: 30px;
+  padding: 30px 80px;
   margin-bottom: 40px;
 }
 
