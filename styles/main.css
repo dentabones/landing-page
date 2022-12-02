@@ -7,7 +7,7 @@
 body {
   margin: 0 auto;
   height: 100vh;
-  width: 100%;
+  width: 1200px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -17,10 +17,13 @@ img {
   border-radius: 10px;
   border: solid 2px blue;
 }
+
+/* header sectoin */
 header {
   background-color: #1f2937;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 header a {
@@ -31,8 +34,28 @@ header a {
   color: #f9faf8;
 }
 
+ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+/* seciton 1 */
 .section-1 {
   background-color: #1f2937;
+  display: flex;
+  gap: 100px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1;
 }
 
 .section-1 h1 {
@@ -50,18 +73,32 @@ header a {
   width: 500px;
   height: 300px;
   background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
 }
 
 button {
   background-color: #3882f6;
+  font-size: 24px;
+  border-radius: 5px;
+  border: none;
+  color: #f9faf8;
 }
-
+/* seciton 2 */
 .section-2 h2 {
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;
 }
 
+.image-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* block quote section */
 .blockquote {
   background-color: #e5e7eb;
 }
@@ -73,6 +110,7 @@ blockquote {
   color: #1f2937;
 }
 
+/* footer */
 footer {
   background-color: #1f2937;
   color: #e5e7eb;
@@ -81,14 +119,4 @@ footer {
 .call-to-action {
   background-color: #3882f6;
   color: #f9faf8;
-}
-
-ul {
-  display: flex;
-  list-style: none;
-  gap: 15px;
-}
-
-a {
-  text-decoration: none;
 }
