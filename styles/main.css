@@ -87,15 +87,29 @@ button {
   color: #f9faf8;
 }
 /* seciton 2 */
+
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+}
 .section-2 h2 {
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;
+  text-align: center;
 }
-
+.main-image-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
 .image-container {
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
 
 /* block quote section */
