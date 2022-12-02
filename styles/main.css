@@ -115,6 +115,8 @@ button {
 /* block quote section */
 .blockquote {
   background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
 }
 
 blockquote {
@@ -124,12 +126,18 @@ blockquote {
   color: #1f2937;
 }
 
+figcaption {
+  display: flex;
+  justify-content: flex-end;
+}
+
 /* footer */
 footer {
   background-color: #1f2937;
   color: #e5e7eb;
 }
 
+/* call to action */
 .call-to-action {
   background-color: #3882f6;
   color: #f9faf8;
